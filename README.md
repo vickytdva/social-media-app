@@ -6,11 +6,11 @@ A complete social media platform built with React.js frontend and Node.js backen
 ## 🛠️ Technology Stack
 
 ### Frontend
-- **React.js 18** - Modern React with hooks
-- **React Router v6** - Client-side routing
-- **React Query (TanStack Query)** - Server state management
-- **SCSS/Sass** - Advanced CSS preprocessing
-- **Axios** - HTTP client for API calls
+- React.js 18 - Modern React with hooks
+- React Router v6 - Client-side routing
+- React Query (TanStack Query) - Server state management
+- SCSS/Sass - Advanced CSS preprocessing
+- Axios - HTTP client for API calls
 
 ### Backend
 - **Node.js** - JavaScript runtime
@@ -23,8 +23,6 @@ A complete social media platform built with React.js frontend and Node.js backen
 
 ### Database
 - **MySQL 9.3.0** - Primary database
-- **Foreign Key Constraints** - Data integrity
-- **Indexed Queries** - Performance optimization
 
 ## �� Project Structure
 
@@ -32,7 +30,7 @@ A complete social media platform built with React.js frontend and Node.js backen
 
 ### 1. Клонирай репозиторията
 ```bash
-git clone [url-то-ти]
+git clone https://github.com/vickytdva/social-media-app.git
 cd socialmediafullstuck-main-2
 ```
 
@@ -70,33 +68,16 @@ npm run dev
 - **Frontend**: `http://localhost:3000`
 - **Backend**: `http://localhost:8800`
 
-##  Ако нещо не работи
-
-### Портът е зает
-```bash
-lsof -i :3000
-kill -9 [PID]
-```
-
-### Backend не работи
-```bash
-npm run server:dev
-```
-
-### Frontend не работи
-```bash
-npm start
-```
 
 ## 📱 Какво можеш да правиш
 
-1. **Регистрирай се** на `/register`
-2. **Влез** на `/login`
-3. **Създавай постове** с снимки
-4. **Добавяй приятели**
-5. **Пиши коментари**
-6. **Харесвай постове**
+1. Регистрирай се на `/register`
+2. Влез на `/login`
+3. Създавай постове с снимки
+4. Добавяй приятели
+5. Пиши коментари
+6. Харесвай постове
 
-## 🎯 Test Account
+## 🎯 Test Account (с този акаунт може да се види пробно как работи)
 - **Username**: gracy
 - **Password**: viki123
