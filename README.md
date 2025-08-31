@@ -81,3 +81,6 @@ npm run dev
 ## 🎯 Test Account (с този акаунт може да се види пробно как работи)
 - **Username**: gracy
 - **Password**: viki123
+<img width="1470" height="956" alt="Screenshot 2025-08-31 at 6 18 25 PM" src="https://github.com/user-attachments/assets/6fe8ce16-1f4b-42c7-a151-f933d408185d" />
+<img width="1470" height="956" alt="Screenshot 2025-08-31 at 6 18 18 PM" src="https://github.com/user-attachments/assets/f2a16ea4-fe79-4c00-b219-f3b081f44ecb" />
+<img width="1470" height="956" alt="Screenshot 2025-08-31 at 6 18 10 PM" src="https://github.com/user-attachments/assets/582ce9ae-fa39-453a-8a8c-84c9ac83ebce" />
