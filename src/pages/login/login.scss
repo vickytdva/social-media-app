@@ -1,0 +1,80 @@
+.login{
+height: 100vh;
+background-color: rgb(246, 248, 249);
+display: flex;
+align-items: center;
+justify-content: center;
+
+    .card{
+        width: 70%;
+        display: flex;
+        background-color: white;
+        border-radius: 10px;
+        min-height: 600px;
+        overflow:hidden;
+        box-shadow: 2px 12px 29px 6px rgba(0,0,0,0.5);
+        -webkit-box-shadow: 2px 12px 29px 6px rgba(0,0,0,0.5);
+        -moz-box-shadow: 2px 12px 29px 6px rgba(0,0,0,0.5);
+        .left{
+            flex: 1;
+            background: linear-gradient(rgba(84, 107, 120, 0.5), rgba(58, 59, 58, 0.6)), url("https://img.hotimg.com/IMG_3123.jpeg") center;
+            background-size: cover;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            color: white;
+            h1{
+                font-size: 45px;
+                line-height: 45px;
+            }
+            p{
+                font-size: 20px;
+            }
+            span{
+                font-size: 14px;
+            }
+            button{
+                width: 50%;
+                padding: 10px;
+                border: none;
+                background-color: white;
+                color: black;
+                font-weight: bold;
+                cursor: pointer;
+            }
+        }
+        .right{
+            flex: 1;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            justify-content: center;
+            h1{
+                color: #555; 
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                input{
+                    border: none;
+                    border-bottom: 1px solid lightgrey;
+                    padding: 20px 10px;
+                }
+                button{
+                    width: 50%;
+                    padding: 10px;
+                    border: none;
+                    background-color: rgb(95, 114, 114);
+                    color: white;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+
+            }
+
+        }
+    }
+}

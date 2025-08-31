@@ -1,0 +1,144 @@
+.friends {
+  padding: 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    padding: 40px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    h1 {
+      text-align: center;
+      color: #2d3748;
+      margin-bottom: 40px;
+      font-size: 3rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .friendsList {
+      display: grid;
+      gap: 25px;
+
+      .friendCard {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px;
+        background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+        border-radius: 20px;
+        border: 2px solid #e2e8f0;
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        position: relative;
+        overflow: hidden;
+
+        &::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: -100%;
+          width: 100%;
+          height: 100%;
+          background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+          transition: left 0.5s;
+        }
+
+        &:hover {
+          transform: translateY(-5px) scale(1.02);
+          box-shadow: 0 20px 40px rgba(102, 126, 234, 0.3);
+          border-color: #667eea;
+
+          &::before {
+            left: 100%;
+          }
+        }
+
+        .friendInfo {
+          display: flex;
+          align-items: center;
+          gap: 25px;
+
+          img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #667eea;
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+            transition: all 0.3s ease;
+
+            &:hover {
+              transform: scale(1.1);
+              box-shadow: 0 12px 35px rgba(102, 126, 234, 0.4);
+            }
+          }
+
+          .friendDetails {
+            h3 {
+              margin: 0 0 10px 0;
+              color: #2d3748;
+              font-size: 1.4rem;
+              font-weight: 700;
+            }
+
+            .city {
+              margin: 0 0 8px 0;
+              color: #667eea;
+              font-size: 1rem;
+              font-weight: 600;
+              background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              background-clip: text;
+            }
+
+            .bio {
+              margin: 0;
+              color: #4a5568;
+              font-size: 0.95rem;
+              line-height: 1.5;
+              max-width: 350px;
+              font-style: italic;
+            }
+          }
+        }
+
+        .viewProfile {
+          padding: 12px 24px;
+          background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+          color: white;
+          text-decoration: none;
+          border-radius: 25px;
+          font-weight: 600;
+          font-size: 0.95rem;
+          transition: all 0.3s ease;
+          box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+
+          &:hover {
+            transform: scale(1.05);
+            box-shadow: 0 12px 35px rgba(102, 126, 234, 0.5);
+          }
+        }
+      }
+    }
+  }
+}
+
+.loading {
+  text-align: center;
+  padding: 60px;
+  font-size: 1.3rem;
+  color: #4a5568;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+} 
